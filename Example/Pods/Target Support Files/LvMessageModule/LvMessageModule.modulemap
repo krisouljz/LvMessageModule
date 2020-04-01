@@ -1,0 +1,6 @@
+framework module LvMessageModule {
+  umbrella header "LvMessageModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

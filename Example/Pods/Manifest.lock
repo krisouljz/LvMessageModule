@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - CTMediator (28)
+  - LvHttpManager (0.1.0):
+    - AFNetworking
+    - CTMediator
+  - LvMessageModule (0.1.0):
+    - CocoaLumberjack
+    - LvHttpManager
+    - ProtocolBuffers
+  - ProtocolBuffers (1.9.11)
+
+DEPENDENCIES:
+  - LvMessageModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - CocoaLumberjack
+    - CTMediator
+    - LvHttpManager
+    - ProtocolBuffers
+
+EXTERNAL SOURCES:
+  LvMessageModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
+  LvHttpManager: e42270c7343256547ea03f1f5b73c5fad02bb2f5
+  LvMessageModule: 043bd8584cd55da1248ce21c7925f8c904c2245f
+  ProtocolBuffers: d509225eb2ea43d9582a59e94348fcf86e2abd65
+
+PODFILE CHECKSUM: c9706519d21125b55e1a05d9d460530d506064bf
+
+COCOAPODS: 1.9.1

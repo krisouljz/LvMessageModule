@@ -31,6 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LvMessageModule/Classes/**/*'
+  s.dependency 'LvHttpManager'
+  s.dependency 'CocoaLumberjack'
+  s.dependency 'ProtocolBuffers'
+  
+  
   
   # s.resource_bundles = {
   #   'LvMessageModule' => ['LvMessageModule/Assets/*.png']
